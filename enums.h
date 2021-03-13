@@ -1,6 +1,6 @@
 #pragma once
 
-enum { EMPTY = 0, wP, wN, wB, wR, wQ, wK, bP, bN, bB, bR, bQ, bK };
+enum { EMPTY = 0, WP, WN, WB, WR, WQ, WK, BP, BN, BB, BR, BQ, BK };
 
 enum { WHITE = 0, BLACK, BOTH };
 
@@ -17,7 +17,7 @@ enum {
 	A6 = 71, B6, C6, D6, E6, F6, G6, H6,
 	A7 = 81, B7, C7, D7, E7, F7, G7, H7,
 	A8 = 91, B8, C8, D8, E8, F8, G8, H8,
-	NO_SQ = 99, OFF_BRD = 100
+	NO_SQ = 99, OFF_BOARD = 100
 };
 
 enum { WKC = 1, WQC = 2, BKC = 4, BQC = 8 };
