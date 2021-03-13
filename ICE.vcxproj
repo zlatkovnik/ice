@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="ICE.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enums.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
